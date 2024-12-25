@@ -35,17 +35,17 @@ The created patches were augmented using the Python script `augmentation.py`, wh
 
 - `GPR_data` folder: contain 2,239 images with 553 void images, 786 underground utilities images and 900 intact images. Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats. The dataset includes also original image files before data augmentation step to insure reproducibility. Three distinct classes were provided: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomalies detection. 
 
-- `augmented_cavities` folder: contains 553 cavity images and the annotation folder 'annotations' with sub folders containing two type of annotations:
-    - `VOC_XML_format` folder: contains 553 .xml file 
-    - `Yolo_format` folder : contains 553 .txt file 
+   - `augmented_cavities` folder: contains 553 cavity images and the annotation folder 'annotations' with sub folders containing two type of annotations:
+       - `VOC_XML_format` folder: contains 553 .xml file 
+       - `Yolo_format` folder : contains 553 .txt file 
     
-- `augmented_utilities` folder: contains 786 underground utility images and the corresponding annotation folder 'annotations' with sub folders containing two type of annotations:
-    - `VOC_XML_format` folder: contains 553 .xml file 
-    - `Yolo_format` folder : contains 553 .txt file
-- `augmented_intact` folder: 900 intact images with no anomalies.
-- `cavities` folder: 79 the original profiles with cavities.
-- `Utilities` folder: 131 the original profiles with underground utilities.
-- `intact` folder: 75 the original intact profiles.
+   - `augmented_utilities` folder: contains 786 underground utility images and the corresponding annotation folder 'annotations' with sub folders containing two type of annotations:
+       - `VOC_XML_format` folder: contains 553 .xml file 
+       - `Yolo_format` folder : contains 553 .txt file
+   - `augmented_intact` folder: 900 intact images with no anomalies.
+   - `cavities` folder: 79 the original profiles with cavities.
+   - `Utilities` folder: 131 the original profiles with underground utilities.
+   - `intact` folder: 75 the original intact profiles.
 
 Image filenames are defined with an ID number, such as:
  
