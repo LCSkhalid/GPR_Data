@@ -33,19 +33,31 @@ The created patches were augmented using the Python script `augmentation.py`, wh
 
 # Files Description
 
-- `GPR_data` folder: contain 2,239 images with 553 void images, 786 underground utilities images and 900 intact images. Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats. The dataset includes also original image files before data augmentation step to insure reproducibility. Three distinct classes were provided: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomalies detection. 
+### Dataset Structure
 
-   - `augmented_cavities` folder: contains 553 cavity images and the annotation folder 'annotations' with sub folders containing two type of annotations:
-       - `VOC_XML_format` folder: contains 553 .xml file 
-       - `Yolo_format` folder : contains 553 .txt file 
-    
-   - `augmented_utilities` folder: contains 786 underground utility images and the corresponding annotation folder 'annotations' with sub folders containing two type of annotations:
-       - `VOC_XML_format` folder: contains 553 .xml file 
-       - `Yolo_format` folder : contains 553 .txt file
-   - `augmented_intact` folder: 900 intact images with no anomalies.
-   - `cavities` folder: 79 the original profiles with cavities.
-   - `Utilities` folder: 131 the original profiles with underground utilities.
-   - `intact` folder: 75 the original intact profiles.
+- **`GPR_data` folder**: Contains 2,239 images, including:
+  - 553 void images  
+  - 786 underground utility images  
+  - 900 intact images  
+  - Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats.  
+  - Includes original image files prior to the data augmentation step to ensure reproducibility.  
+  - The dataset provides three distinct classes: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomaly detection.
+
+- **`augmented_cavities` folder**: Contains 553 cavity images and an annotation folder `annotations` with subfolders for two annotation formats:
+  - **`VOC_XML_format` folder**: Contains 553 `.xml` files  
+  - **`Yolo_format` folder**: Contains 553 `.txt` files  
+
+- **`augmented_utilities` folder**: Contains 786 underground utility images and a corresponding annotation folder `annotations` with subfolders for two annotation formats:
+  - **`VOC_XML_format` folder**: Contains 786 `.xml` files  
+  - **`Yolo_format` folder**: Contains 786 `.txt` files  
+
+- **`augmented_intact` folder**: Contains 900 intact images with no anomalies.
+
+- **`cavities` folder**: Contains 79 original profiles with cavities.
+
+- **`Utilities` folder**: Contains 131 original profiles with underground utilities.
+
+- **`intact` folder**: Contains 75 original intact profiles.
 
 Image filenames are defined with an ID number, such as:
  
