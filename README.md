@@ -18,12 +18,19 @@ The data acquisition process utilized two distinct antennas, a 400 MHz and a 200
 
 ![Screenshot](dataset.png)
 
-## Data processing
-### Profiles cropping:
-The original GPR profiles were cropped into 224*224 using the python script crop.py to meet the prefered training size to performe transfer learning with different backboned such VGG19.
+## Data Processing
 
-### Data augmentation:
-The created patches were augmented using the augmentation.py Python script, which includes data augmentation techniques such as geometric transformations (random rotations, scaling, and flipping), random noise, spectral shifting, elastic deformations, and time-shifting.
+### Profiles Cropping
+The original GPR profiles were cropped into `224×224` using the Python script `crop.py` to meet the preferred training size for performing transfer learning with different backbones such as `VGG19`.
+
+### Data Augmentation
+The created patches were augmented using the Python script `augmentation.py`, which includes various data augmentation techniques:
+- Geometric transformations (random rotations, scaling, and flipping)
+- Random noise
+- Spectral shifting
+- Elastic deformations
+- Time-shifting
+
 ## Files Description
 
   - 'GPR_data' folder: contain 2,239 images with 553 void images, 786 underground utilities images and 900 intact images. Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats. The dataset includes also original image files before data augmentation step to insure reproducibility. Three distinct classes were provided: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomalies detection. 
