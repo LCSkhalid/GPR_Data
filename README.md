@@ -7,7 +7,7 @@ The dataset consists of high-resolution Ground Penetrating Radar (GPR) data, spe
 - Underground cavities 'Cavity'
 
 ## Download
-The dataset can be downloaded [here](https://data.mendeley.com/datasets/ww7fd9t325/2).
+The dataset can be downloaded [here](https://data.mendeley.com/datasets/ww7fd9t325/1).
 
 ## Data Acquisition
 
