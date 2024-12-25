@@ -31,15 +31,15 @@ The created patches were augmented using the Python script `augmentation.py`, wh
 - Elastic deformations
 - Time-shifting
 
-## Files Description
+# Files Description
 
-  - 'GPR_data' folder: contain 2,239 images with 553 void images, 786 underground utilities images and 900 intact images. Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats. The dataset includes also original image files before data augmentation step to insure reproducibility. Three distinct classes were provided: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomalies detection. 
+      - 'GPR_data' folder: contain 2,239 images with 553 void images, 786 underground utilities images and 900 intact images. Cavities and utilities are accompanied by corresponding annotations in both YOLO and VOC XML formats. The dataset includes also original image files before data augmentation step to insure reproducibility. Three distinct classes were provided: voids, utilities, and intact areas, making it highly valuable for training machine learning models tailored to underground anomalies detection. 
 
-  - 'augmented_cavities' folder: contains 553 cavity images and the annotation folder 'annotations' with sub folders containing two type of annotations:
+      - 'augmented_cavities' folder: contains 553 cavity images and the annotation folder 'annotations' with sub folders containing two type of annotations:
             - 'VOC_XML_format' folder: contains 553 .xml file 
             - 'Yolo_format' folder : contains 553 .txt file 
     
-  - 'augmented_utilities' folder: contains 786 underground utility images and the corresponding annotation folder 'annotations' with sub folders containing two type of annotations:
+      - 'augmented_utilities' folder: contains 786 underground utility images and the corresponding annotation folder 'annotations' with sub folders containing two type of annotations:
             - 'VOC_XML_format' folder: contains 553 .xml file 
             - 'Yolo_format' folder : contains 553 .txt file
       - 'augmented_intact' folder: 900 intact images with no anomalies.
@@ -68,4 +68,6 @@ _A. MOJAHID, D. EL OUAI, K. El Amraoui, K. EL-HAMI,  H. AITBENAMER, (2024).Intel
             doi = {10.17632/ww7fd9t325.1},
             publisher={Elsevier}
             }
+            
+
             
