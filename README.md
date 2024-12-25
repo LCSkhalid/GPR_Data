@@ -16,7 +16,7 @@ The data acquisition process utilized two distinct antennas, a 400 MHz and a 200
 
 ### images from the data with annotations:
 
-![Screenshot](database.png)
+![Screenshot](dataset.jpg)
 
 
 ## Files Description
